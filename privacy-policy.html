@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy – Sobix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            color-scheme: dark light;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #050711;
+            color: #f5f5f7;
+            line-height: 1.6;
+        }
+        .page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 32px 20px 48px;
+        }
+        .card {
+            background: radial-gradient(circle at top left, #1c2140 0, #050711 55%);
+            border-radius: 24px;
+            padding: 32px 24px;
+            box-shadow: 0 18px 60px rgba(0,0,0,0.65);
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 1.9rem;
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 1.8rem;
+            margin-bottom: 0.6rem;
+        }
+        h3 {
+            font-size: 1.05rem;
+            margin-top: 1.3rem;
+            margin-bottom: 0.4rem;
+        }
+        p {
+            margin: 0.35rem 0;
+            color: #e5e5f0;
+        }
+        strong {
+            color: #ffffff;
+        }
+        a {
+            color: #8ad3ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            margin: 0.35rem 0 0.35rem 1.25rem;
+            padding: 0;
+        }
+        li {
+            margin: 0.2rem 0;
+        }
+        .meta {
+            font-size: 0.85rem;
+            color: #a0a3c2;
+            margin-bottom: 1.2rem;
+        }
+        .tagline {
+            font-size: 0.95rem;
+            color: #b1b4d3;
+            margin-bottom: 1.2rem;
+        }
+        .section-divider {
+            height: 1px;
+            border: 0;
+            margin: 1.4rem 0;
+            background: linear-gradient(
+                to right,
+                rgba(255,255,255,0.08),
+                rgba(255,255,255,0.02),
+                rgba(255,255,255,0.0)
+            );
+        }
+        @media (min-width: 700px) {
+            .card {
+                padding: 40px 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="card">
+        <h1>Privacy Policy for Sobix</h1>
+        <p class="meta">Last updated: 23 November 2025</p>
+        <p class="meta">Owner: “Sobix” by an independent developer (Ilya)</p>
+        <p class="tagline">
+            This Privacy Policy describes how Sobix (“<strong>App</strong>”, “<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>”) collects,
+            uses, stores, and protects your information when you use the Sobix mobile application and any related services.
+        </p>
+
+        <hr class="section-divider">
+
+        <h2>1. General Information</h2>
+        <p>
+            By downloading, accessing, or using Sobix, you agree to this Privacy Policy. If you do not agree with any part of it,
+            please do not use the App.
+        </p>
+        <p>
+            Sobix is a sobriety and self-improvement tracker with gamified features such as milestones, quizzes, fragments
+            (in-app virtual currency), avatars, and premium content. The App is intended for users aged <strong>13 and older</strong>
+            and is <strong>not</strong> directed to children under 13.
+        </p>
+
+        <h2>2. Data We Collect</h2>
+        <p>We collect only the data necessary to operate the App, provide premium features, and improve stability.</p>
+
+        <h3>2.1. Account & Identification Data</h3>
+        <p>
+            To use certain features (sync, premium, cross-device access), you may sign in, for example with
+            <strong>Sign in with Apple</strong> via Firebase Authentication. In this case, Firebase processes:
+        </p>
+        <ul>
+            <li>Firebase user ID (<strong>UID</strong>);</li>
+            <li>Authentication identifiers (e.g., Apple ID–linked anonymized identifier);</li>
+            <li>Optionally, your email address if you choose to share it with us.</li>
+        </ul>
+        <p>
+            We do <strong>not</strong> receive your Apple password. We do not require your real name or phone number to use the core
+            functionality.
+        </p>
+
+        <h3>2.2. App Content & Profile Data (Firebase Firestore)</h3>
+        <p>
+            Sobix is built around your personal progress and in-app state. Through Firebase Firestore we may store data such as:
+        </p>
+        <ul>
+            <li>Your sobriety start date, streak, and progress data;</li>
+            <li>Completed milestones, unlocked rewards, and achievement status;</li>
+            <li>Quiz results (scores, completion state);</li>
+            <li>Your fragments balance and fragments transaction history;</li>
+            <li>Which avatars you use or have unlocked (including premium or ultra-premium avatars);</li>
+            <li>Basic app preferences (language, selected themes, notification settings, etc.).</li>
+        </ul>
+        <p>
+            This data is linked to your account identifier (UID) to keep your experience consistent across sessions and devices.
+        </p>
+
+        <h3>2.3. In-App Purchases & Subscriptions (Apple & RevenueCat)</h3>
+        <p>
+            Sobix uses <strong>Apple In-App Purchases</strong> and <strong>RevenueCat</strong> to manage subscriptions and one-time
+            purchases. When you purchase or restore:
+        </p>
+        <ul>
+            <li>Subscriptions such as <strong>Sobix Plus</strong> (e.g. Weekly, Annual, Lifetime);</li>
+            <li>Fragments packs (e.g. 300 / 700 / 1500 / 4000 / 10000 fragments);</li>
+            <li>One-time products like <strong>Ultra-Premium Avatars</strong>,</li>
+        </ul>
+        <p>we may process and receive from Apple/RevenueCat information including:</p>
+        <ul>
+            <li>Anonymous app-specific user or device identifier;</li>
+            <li>Type of product or subscription purchased;</li>
+            <li>Purchase date, renewal status, expiry date, and country/region of the Store;</li>
+            <li>Receipt and transaction identifiers necessary for validation and fraud prevention.</li>
+        </ul>
+        <p>
+            We do <strong>not</strong> process or store your full payment card details. All payments are handled by Apple and their
+            payment providers.
+        </p>
+
+        <h3>2.4. Device & Usage Data</h3>
+        <p>
+            To maintain and improve the App, we may collect device and usage information, for example:
+        </p>
+        <ul>
+            <li>Device model, OS version, app version;</li>
+            <li>Language, region, and basic time zone information;</li>
+            <li>In-app events (e.g. which screen was opened, whether a feature was used);</li>
+            <li>Anonymous crash reports and performance metrics.</li>
+        </ul>
+        <p>
+            This data may be collected through Firebase services (such as Firebase Analytics or Crashlytics) or similar tools.
+        </p>
+
+        <h3>2.5. Data You Contact Us With</h3>
+        <p>
+            If you contact us for support (for example, via email or via a link in the App or on the App Store page), we may
+            process:
+        </p>
+        <ul>
+            <li>Your email address and any name you provide;</li>
+            <li>The contents of your message and any additional information you choose to send (screenshots, logs, etc.).</li>
+        </ul>
+
+        <hr class="section-divider">
+
+        <h2>3. How We Use Your Data</h2>
+        <p>We use the collected data to:</p>
+        <ul>
+            <li>Provide, personalize, and maintain the core functionality of Sobix (sobriety tracking, milestones, quizzes, fragments, avatars);</li>
+            <li>Enable and manage in-app purchases, subscriptions, and entitlements via Apple and RevenueCat;</li>
+            <li>Sync your data across sessions/devices using Firebase;</li>
+            <li>Send optional push notifications and reminders (if you allow them in iOS settings);</li>
+            <li>Fix bugs, prevent fraud, and improve stability and performance;</li>
+            <li>Understand how the App is used, so we can improve features and user experience;</li>
+            <li>Comply with legal obligations and respond to lawful requests.</li>
+        </ul>
+        <p>
+            We do <strong>not</strong> sell your personal data. We do not build a marketing profile outside of Sobix or share your
+            personal data with third parties for their own direct marketing.
+        </p>
+
+        <h2>4. Legal Bases (for users in the EEA/UK and similar regions)</h2>
+        <p>If you are located in the European Economic Area, the United Kingdom, or a similar jurisdiction, we process your data based on:</p>
+        <ul>
+            <li><strong>Performance of a contract</strong> – to provide you with the App and its features;</li>
+            <li><strong>Legitimate interests</strong> – to secure the App, prevent abuse, and improve the service;</li>
+            <li><strong>Consent</strong> – for optional features like analytics or push notifications, where required;</li>
+            <li><strong>Legal obligations</strong> – to comply with applicable laws and regulations.</li>
+        </ul>
+
+        <h2>5. How We Share Your Data</h2>
+        <p>We share your data only with:</p>
+        <ul>
+            <li><strong>Service providers</strong> that help us operate Sobix, such as:
+                <ul>
+                    <li>Firebase (Google LLC and its affiliates) – authentication, database, analytics, crash reporting, and hosting;</li>
+                    <li>RevenueCat, Inc. – management and validation of in-app purchases and subscriptions;</li>
+                    <li>Analytics and crash-reporting tools used strictly to improve the App.</li>
+                </ul>
+            </li>
+            <li><strong>Apple</strong> – as part of in-app purchases, subscriptions, and App Store distribution.</li>
+            <li><strong>Authorities</strong> – only when required by applicable law or in response to valid legal processes.</li>
+        </ul>
+        <p>
+            These third parties process data on our behalf and in accordance with their own privacy policies and applicable data
+            protection laws.
+        </p>
+
+        <h2>6. International Data Transfers</h2>
+        <p>
+            Our service providers (such as Firebase and RevenueCat) may store and process data on servers located in various
+            countries (for example, the European Union, the United States, or other regions).
+        </p>
+        <p>
+            Where required by law, we take appropriate measures to ensure that your personal data receives an adequate level of
+            protection in line with applicable data protection regulations.
+        </p>
+
+        <h2>7. Data Retention</h2>
+        <p>We keep your data only as long as necessary for the purposes described in this Policy, including:</p>
+        <ul>
+            <li>As long as you maintain an account or actively use Sobix;</li>
+            <li>For as long as needed to provide you with purchased content or subscriptions;</li>
+            <li>For the period required by applicable law (for example, for accounting or legal obligations);</li>
+            <li>For a limited period after account deletion or inactivity, to complete internal processes and backups.</li>
+        </ul>
+        <p>
+            We may retain aggregated or anonymized data that does not identify you personally for analytics, statistics, or
+            product improvement.
+        </p>
+
+        <h2>8. Your Rights & Choices</h2>
+        <p>Depending on your jurisdiction, you may have certain rights regarding your personal data, including the right to:</p>
+        <ul>
+            <li>Access the personal data we hold about you;</li>
+            <li>Request correction of inaccurate or incomplete data;</li>
+            <li>Request deletion of your account and associated personal data (subject to legal obligations);</li>
+            <li>Object to or restrict certain processing activities;</li>
+            <li>Withdraw consent where processing is based on consent;</li>
+            <li>Portability of certain data, where applicable.</li>
+        </ul>
+        <p>
+            You can exercise many of these rights directly in the App (for example, by managing your profile or settings). If
+            you need help or want to submit a request, please contact us as described in the “Contact Us” section below.
+        </p>
+
+        <h3>8.1. Push Notifications</h3>
+        <p>
+            You can enable or disable push notifications in your <strong>iOS device settings</strong> at any time. If you disable
+            notifications, Sobix may not be able to remind you about check-ins or milestones.
+        </p>
+
+        <h3>8.2. Subscriptions & Purchases</h3>
+        <p>
+            All recurring subscriptions (such as Sobix Plus Weekly or Annual) can be managed and cancelled through your
+            <strong>Apple ID account settings</strong>. You can cancel at any time; after cancellation, your subscription will remain
+            active until the end of the current billing period.
+        </p>
+
+        <h2>9. Children’s Privacy</h2>
+        <p>
+            Sobix is designed for users aged <strong>13 and older</strong>. We do not knowingly collect personal data from children
+            under 13. If you are under 13, please do not use Sobix or send us any personal information.
+        </p>
+        <p>
+            If we become aware that we have collected personal data from a child under 13 without verifiable parental consent, we
+            will take steps to delete that information as soon as reasonably possible.
+        </p>
+
+        <h2>10. Security</h2>
+        <p>
+            We take reasonable technical and organizational measures to protect your data, including encryption in transit (HTTPS)
+            and security best practices for our database and infrastructure.
+        </p>
+        <p>
+            However, no method of transmission or storage is 100% secure. We cannot guarantee absolute security, but we work
+            continuously to protect your data from unauthorized access, loss, misuse, or alteration.
+        </p>
+
+        <h2>11. Third-Party Links</h2>
+        <p>
+            The App or its website (for example, a GitHub or landing page) may contain links to third-party websites or services
+            that are not operated by us. We are not responsible for the content or privacy practices of those websites. We
+            encourage you to review the privacy policies of any third-party services you interact with.
+        </p>
+
+        <h2>12. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. When we do, we will revise the “Last updated” date at the top of
+            this page. In case of significant changes, we may also provide an in-app notice.
+        </p>
+        <p>
+            Your continued use of Sobix after any changes means that you accept the updated Privacy Policy. If you do not agree,
+            you should stop using the App.
+        </p>
+
+        <h2>13. Contact Us</h2>
+        <p>
+            If you have any questions about this Privacy Policy, your data, or your rights, you can contact us via the support: ilushazs@icloud.com
+          
+        </p>
+        <p>
+            Please include enough information so we can identify you in our systems (for example, your approximate registration
+            date, platform, and a short description of your request), but avoid including sensitive information in your initial
+            message.
+        </p>
+    </div>
+</div>
+</body>
+</html>
